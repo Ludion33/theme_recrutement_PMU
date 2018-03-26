@@ -1,0 +1,87 @@
+/* 
+HEADER 
+*/
+
+/* LOGO */
+
+header .home_logo {
+    display: grid;
+
+    padding: 0;
+}
+
+header .home_logo .logo-image{
+    max-height: 100%;
+    max-width: 100%;
+
+    margin: 0 auto;
+}
+
+
+/* MENU */
+
+header .menu {
+    display: flex;
+}
+
+header ul { 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+header ul li { 
+    display: flex;
+}
+
+header ul li a {
+    display: block; /*Même largeur que son parent*/
+    padding: 2em 0; /*Ajuster la taille cliquable*/
+
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgba(30, 255, 22, 0.562);
+    transform: scale(1.1);
+}
+
+/* BOUTON DE CONNEXION */
+
+header .connexion {
+    display: grid;
+    grid-template-columns: 20% 20% 1fr;
+}
+
+header .connexion a {
+    color: #fafafa;
+}
+
+header .connexion .button:hover {
+    background-color: rgba(30, 255, 22, 0.5);
+}
+
+header .connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .button {
+    background-color: rgba(30, 255, 22, 0.2);
+    padding: 1.5em 1em;
+    border: 4px solid rgba(30, 255, 22, 0.562);
+    border-radius: 50px;
+}
+
+header .connect .button {
+    color: #fafafa;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/**/

@@ -1,0 +1,42 @@
+/* MISE EN PAGE DES ÉLÉMENTS */
+
+#body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 90%;
+    background-image: url(https://image.noelshack.com/fichiers/2018/13/1/1522055840-opacite.png), url(https://image.noelshack.com/fichiers/2018/13/1/1522022184-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main_header {
+    /* position: fixed; */
+
+    /* Positionnement dans la grid */
+    grid-row: 1/2 ;
+    grid-column: 1/2;
+
+    /* Mise en page des éléments du header */
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#main_home { 
+    /* Positionnement dans la grid */
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+    /* Mise en page des éléments du header */
+    display: grid;
+    grid-template-rows: 1fr 12% 5% 10% 25% 3fr;
+}
+
+footer {
+    display: none;
+}
+
