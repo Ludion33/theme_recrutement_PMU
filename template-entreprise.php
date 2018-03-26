@@ -7,12 +7,11 @@ Template Name: Entreprise
 <?php get_header(); ?>
 
 <div id="main_entreprise">
-
     <h4></h4>
     <h2>Découvrir l'entreprise</h2>
     <h1>PMU</h1>
 
-    <p>En attente de contenu</p>
+    <p>En attente de contenu </p>
     <!-- <ul>
         <a href="">
             <li><h2>Dialogue Leader</h2></li>

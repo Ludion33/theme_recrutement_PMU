@@ -2,7 +2,19 @@
 ENTREPRISE 
 */
 
-#main_entreprise p{
-    color: aliceblue;
+#main_entreprise h1, #main_entreprise h2, #main_entreprise h4, #main_entreprise p{
+    color: white;
     text-align: center;
+}
+
+#main_entreprise h2 {
+    margin-top: 50px;
+}
+
+#main_entreprise h1 {
+    margin-top: 30px;
+    font-size: 3em;
+}
+#main_entreprise p {
+    margin-top: 150px;
 }
