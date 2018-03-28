@@ -22,7 +22,7 @@
         </a>
         <nav class="menu">
             <ul>
-                <li><a href="http://localhost:8888/00_PMU_FT3/site_PMU/fiche-metier/">Nos métiers</a></li>
+                <li><a href="">Nos offres</a></li>
                 <li><a href="http://localhost:8888/00_PMU_FT3/site_PMU/decouverte_entreprise/">L'entreprise</a></li>
                 <li><a href="">Témoignages</a></li>
                 <li><a href="">Événements</a></li>

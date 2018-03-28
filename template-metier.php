@@ -7,7 +7,7 @@ Template Name: Metiers
 <?php get_header(); ?>
 
 <div id="main_metier">
-    <div class="cercle cerclemid">
+    <div class="cercle">
         <img id="secteurCom" src="https://image.noelshack.com/fichiers/2018/13/1/1522024910-megaphone.png" alt="Logo du secteur Communication">
     </div>
     <h1>Dialogue Leader</h1>
