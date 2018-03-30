@@ -14,7 +14,7 @@ Template Name: Secteurs
     <h1>Communication</h1>
 
     <ul>
-        <a href="http://localhost:8888/00_PMU_FT3/site_PMU/fiche-metier/">
+        <a href="http://localhost:8888/00_PMU_FT3/site_PMU/fiche-secteur-relations-humaines/metiers-relations-humaines-dialogue-leader/">
             <li><h2>Dialogue Leader</h2></li>
         </a>
         <a href="">

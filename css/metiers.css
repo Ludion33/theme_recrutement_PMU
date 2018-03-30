@@ -2,46 +2,132 @@
 MÉTIERS 
 */
 
-
-
-
-#main_metier h1, #main_metier h2, #main_metier h3  {
-    text-align: center;
-    color: #fafafa;
-}
-
-#main_metier h1 {
-    text-transform: uppercase;
-    font-size: 5em;
-}
-
-#main_metier .cercle {
-    margin: 100px auto 0 auto;
-    display: grid;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    border: 5px solid rgb(28, 94, 7);
-    margin-bottom: 15px;
-    box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.9), 0 0 2em rgba(0, 0, 0, 0.9);
-}
-
-#main_metier #secteurCom {
-    max-width: 80%;
-    max-height: 80%;
-    margin: auto auto; 
+#main_metier { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-#main_metier .btn_CTA {
-    background-color: rgba(7, 94, 14, 0.644);
-}
+/* 
+SECTION PRESENTATION
+*/
 
+    #main_metier .section_presentation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background-image: url(https://image.noelshack.com/fichiers/2018/13/1/1522055840-opacite.png), url(https://image.noelshack.com/fichiers/2018/13/1/1522022184-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #main_metier h1, #main_metier h2, #main_metier h3, #main_metier p, #main_metier h5 {
+        text-align: center;
+        color: #fafafa;
+    }
+
+    #main_metier h1 {
+        margin-top: 3%;
+        text-transform: uppercase;
+        font-size: 4em;
+    }
+
+    #main_metier .first_circle {
+        margin-top: 17%;
+    }
+    
+    #main_metier .cercle {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        display: grid;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border: 5px solid rgb(28, 94, 7);
+        margin-bottom: 15px;
+        box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.9), 0 0 2em rgba(0, 0, 0, 0.9);
+    }
+
+    #main_metier #secteurCom {
+        max-width: 80%;
+        max-height: 80%;
+        margin: auto auto; 
+    }
+
+
+    #main_metier .CTA {
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    #main_metier .btn_CTA {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        height: 60%;
+        background-color: rgba(30, 255, 22, 0.2);
+        padding: 1em 1em;
+        border: 4px solid rgba(30, 255, 22, 0.562);
+        border-radius: 10px;
+        margin-right: 4%;
+    }
+
+    #main_metier .btn_CTA:last-child {
+        margin-right: 0;
+    }
+
+    #main_metier .btn_CTA h2{
+        text-transform: uppercase;
+        font-size: 1em;
+    }
 
 /**/
 
-#main_secteur h1, #main_secteur h2, #main_secteur h4 {
-    text-align: center;
-    color: white;
+/* 
+SECTION TEMOIGNAGE 
+*/
 
+
+    #main_metier .section_temoignage {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        background-color: #fff;
+        align-items: center;
+    }
+
+    #main_metier .section_temoignage .second_circle {
+        margin-top: 4%;
+    }
+
+    #main_metier .section_temoignage p{
+        color: black;
+    }
+    #main_metier .section_temoignage h5{
+        color: rgb(16, 94, 22);
+    }
+
+    #main_metier .section_temoignage .verbatim {
+
+        width: 50%;
+        border: 5px solid rgb(28, 94, 7);
+    }
+
+/**/
+
+/* 
+SECTION PROFILE 
+*/
+
+.section_profile {
+    width: 100%;
+    background-color: rgb(124, 124, 124);
 }

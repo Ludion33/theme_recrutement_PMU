@@ -6,7 +6,7 @@
     <div class="secteurs">
         <ul>
             <li>
-                <a href="http://localhost:8888/00_PMU_FT3/site_PMU/fiche-secteur/">
+                <a href="http://localhost:8888/00_PMU_FT3/site_PMU/fiche-secteur-relations-humaines/">
                     <div class="cercle">
                         <img id="secteurRelationsHumaines" src="https://image.noelshack.com/fichiers/2018/13/1/1522023749-teamwork-white.png" alt="Logo des Relations humaines">
                     </div>

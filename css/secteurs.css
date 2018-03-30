@@ -2,6 +2,18 @@
 SECTEURS 
 */
 
+#main_secteur { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://image.noelshack.com/fichiers/2018/13/1/1522055840-opacite.png), url(https://image.noelshack.com/fichiers/2018/13/1/1522022184-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /* MISE EN PAGE DES TITRES */
 
 #main_secteur h1, #main_secteur h2, #main_secteur h4 {

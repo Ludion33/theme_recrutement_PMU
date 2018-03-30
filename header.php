@@ -29,11 +29,6 @@
             </ul>
         </nav>
         <div class="connexion">
-            <div class="recherche"></div>
-            <div class="facebook"></div>
-            <div class="connect">
                 <div class="button"><a href="">Connectez-vous</a></div>
-                <div class="lock"></div>
-            </div>
         </div>
     </header>

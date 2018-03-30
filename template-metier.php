@@ -7,46 +7,57 @@ Template Name: Metiers
 <?php get_header(); ?>
 
 <div id="main_metier">
-    <div class="cercle">
-        <img id="secteurCom" src="https://image.noelshack.com/fichiers/2018/13/1/1522024910-megaphone.png" alt="Logo du secteur Communication">
-    </div>
-    <h1>Dialogue Leader</h1>
 
-    <ul>
-        <a class="btn_CTA" href="">
-            <li><h2>Postuler</h2></li>
-        </a>
-        <a class="btn_CTA" href="">
-            <li><h2>Partager</h2></li>
-        </a>
-    </ul>
+    <section class="section_presentation">
+        <div class="cercle first_circle">
+            <img id="secteurCom" src="https://image.noelshack.com/fichiers/2018/13/1/1522024910-megaphone.png" alt="Logo du secteur Communication">
+        </div>
 
-    <h3>Deux offres à pourvoir</h3>
+        <h1>Dialogue Leader</h1>
 
-    <section class="section_offres" >
-        <ul>
-            <li>
-                <p>Assistant Chargé de communication</p>
-            </li>
+        <ul class="CTA">
+            <a class="btn_CTA" href="">
+                <li><h2>Postuler</h2></li>
+            </a>
+            <a class="btn_CTA" href="">
+                <li><h2>Partager</h2></li>
+            </a>
         </ul>
+
+        <!-- <h3>Deux offres à pourvoir</h3>
+
+        <section class="section_offres" >
+            <ul>
+                <li>
+                    <p>Assistant Chargé de communication</p>
+                </li>
+            </ul>
+        </section> -->
     </section>
+    
 
     <section class="section_temoignage" >
-        <div class="cercle"></div>
-        <p>Lorem Ipsum Dolores est nananana</p>
+        <div class="cercle second_circle"></div>
+        <div class="verbatim">
+            <p>Maecenas feugiat a quam a varius. Proin quis ipsum volutpat, finibus massa at, maximus purus. Vestibulum eu mollis ex, eget tincidunt mi. Vivamus scelerisque ut lacus ut placerat. Ut sagittis aliquam finibus. Quisque ultrices enim enim, ac ultrices nulla congue et. Aliquam quis vehicula odio, nec gravida quam. Vivamus finibus quis est viverra auctor. Ut quis purus efficitur, eleifend est et, vestibulum justo. Pellentesque faucibus porta velit dignissim molestie. Integer ut turpis feugiat, faucibus eros non, efficitur sem. Nam congue tellus vitae gravida mattis.</p>
+        </div>
         <h5>Gérard,Dialogue Leader PMU</h5>
     </section>
 
     <section class="section_profile">
         <h2>Votre Profil</h2>
+        <div class="profile_description">
+            <p>Maecenas feugiat a quam a varius. Proin quis ipsum volutpat, finibus massa at, maximus purus. Vestibulum eu mollis ex, eget tincidunt mi. Vivamus scelerisque ut lacus ut placerat. Ut sagittis aliquam finibus. Quisque ultrices enim enim, ac ultrices nulla congue et. Aliquam quis vehicula odio, nec gravida quam. Vivamus finibus quis est viverra auctor. Ut quis purus efficitur, eleifend est et, vestibulum justo. Pellentesque faucibus porta velit dignissim molestie. Integer ut turpis feugiat, faucibus eros non, efficitur sem. Nam congue tellus vitae gravida mattis.</p>
+        </div>
     </section>
 
     <section class="section_mission">
         <h2>Votre Mission</h2>
         <div class="cercle"></div>
+        
     </section>
 
-    <section class="section_evolution">
+    <!-- <section class="section_evolution">
         <h2>Votre Évolution</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium felis nibh, ac suscipit ex consequat eget. Duis cursus sit amet arcu at condimentum. Vivamus facilisis interdum pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed quis magna ornare sem vestibulum ornare. Etiam posuere, tellus vitae auctor dictum, risus nibh maximus libero, at dictum ex velit sodales erat. Phasellus vel lorem luctus, ornare ligula eget, elementum sapien. Nunc diam enim, commodo sed dictum sed, mattis at ante. Cras mollis suscipit imperdiet. Fusce nibh nulla, ultricies id erat id, semper consectetur risus. Aenean cursus justo eget erat euismod, nec pellentesque velit lacinia. Sed feugiat massa a fermentum pretium. In ac ex quis massa hendrerit tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
         <div class="schema"></div>
@@ -54,7 +65,7 @@ Template Name: Metiers
 
     <section class="section_temoignage">
         
-    </section>
+    </section> -->
 
 
 </div>
